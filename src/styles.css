@@ -62,8 +62,10 @@ body {
 }
 
 .button--transparent {
+  -webkit-background-color: transparent;
   background-color: transparent;
   border: 0.125rem solid white;
+  backdrop-filter: blur(0.5rem);
 }
 .button--transparent:hover {
   background-color: rgba(255, 255, 255, 0.25);
