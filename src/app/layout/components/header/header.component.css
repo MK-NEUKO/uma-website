@@ -38,6 +38,7 @@ header::after {
   background-color: #ed6a4e;
   margin-right: auto;
   margin-left: auto;
+  box-shadow: 0 0 0.25rem rgba(0, 0, 0, 0.5);
 }
 @media (min-width: 62em) {
   header::after {
@@ -88,6 +89,7 @@ header::after {
   color: white;
   text-decoration: none;
   padding: 1rem 1rem;
+  text-shadow: 0 0 1rem rgba(0, 0, 0, 0.5);
 }
 
 .header__nav {
@@ -106,6 +108,7 @@ header::after {
   font-size: 2rem;
   color: white;
   margin: 0;
+  text-shadow: 0 0 1rem rgba(0, 0, 0, 0.5);
 }
 @media (min-width: 36em) {
   .header__heading {
@@ -124,6 +127,7 @@ header::after {
   margin: 0;
   padding-top: 0.5rem;
   padding-bottom: 2rem;
+  text-shadow: 0 0 1rem rgba(0, 0, 0, 0.5);
 }
 @media (min-width: 36em) {
   .header__sub-heading {
