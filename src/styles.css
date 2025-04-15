@@ -66,3 +66,22 @@ body {
 .button--transparent:hover {
   background-color: rgba(255, 255, 255, 0.25);
 }
+
+.heading {
+  color: #014153;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05rem;
+  padding: 2rem 0;
+}
+
+.heading--centered {
+  text-align: center;
+}
+
+.heading__pre-text {
+  display: block;
+  font-size: 1.5rem;
+}
