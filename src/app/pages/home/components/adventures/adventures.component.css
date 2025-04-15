@@ -1,0 +1,112 @@
+/** Breakpoint: 576px+ */
+@media (min-width: 36em) {
+}
+
+/** Breakpoint: 768px+ */
+@media (min-width: 48em) {
+}
+
+/** Breakpoint: 992px+ */
+@media (min-width: 62em) {
+}
+
+/** Breakpoint: 1200px+ */
+@media (min-width: 75em) {
+}
+
+/** Breakpoint: 1400px+ */
+@media (min-width: 87.5em) {
+}
+
+.adventures {
+  padding-bottom: 2rem;
+  background-color: rgb(225, 220, 206);
+  background-image: url("/images/adventures/background.jpg");
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.adventures__cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+@media (min-width: 36em) {
+  .adventures__cards {
+    justify-content: space-around;
+  }
+}
+@media (min-width: 62em) {
+  .adventures__cards {
+    justify-content: space-between;
+  }
+}
+
+.header {
+  margin: 0;
+  padding-top: 0.5rem;
+  padding-bottom: 2rem;
+  text-align: center;
+  text-transform: uppercase;
+  word-spacing: 0.125rem;
+  letter-spacing: 0.125rem;
+  font-size: 1.25rem;
+}
+@media (min-width: 36em) {
+  .header {
+    font-size: 2.25rem;
+    word-spacing: 0.25rem;
+  }
+}
+
+.header--pre-header {
+  font-size: 0.75rem;
+  padding-top: 2.5rem;
+  padding-bottom: 0.125rem;
+}
+@media (min-width: 36em) {
+  .header--pre-header {
+    font-size: 1.25rem;
+    padding-top: 4rem;
+  }
+}
+
+.card {
+  margin-bottom: 2rem;
+  width: 20rem;
+  border-radius: 1rem;
+  background-color: white;
+  overflow: hidden;
+  box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.25);
+}
+
+.card__image {
+  width: 100%;
+  height: 55%;
+  object-fit: cover;
+}
+
+.card__content {
+  padding: 1rem;
+  text-align: center;
+}
+
+.card__title {
+  margin: 0;
+}
+
+.card__description {
+  padding: 1rem 0;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+.card__description-span {
+  color: #ed6a4e;
+}
+
+.button--card {
+  padding-bottom: 1rem;
+  height: 0.5rem;
+  width: 4.5rem;
+}
