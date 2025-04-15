@@ -1,1 +1,47 @@
-/* You can add global styles to this file, and also import other style files */
+/** Breakpoin: 576px+ */
+@media (min-width: 36em) {
+}
+
+/** Breakpoin: 768px+ */
+@media (min-width: 48em) {
+}
+
+/** Breakpoin: 992px+ */
+@media (min-width: 62em) {
+}
+
+/** Breakpoin: 1200px+ */
+@media (min-width: 75em) {
+}
+
+/** Breakpoin: 1400px+ */
+@media (min-width: 87.5em) {
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 1em;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 75rem;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 1rem;
+  padding-left: 1rem;
+}
+@media (min-width: 62em) {
+  .container {
+    padding-right: 2rem;
+    padding-left: 2rem;
+  }
+}
