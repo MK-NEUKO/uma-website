@@ -45,3 +45,25 @@ body {
     padding-left: 2rem;
   }
 }
+
+.button {
+  display: inline-block;
+  color: white;
+  padding: 0.75rem 2rem;
+  border-radius: 999999px;
+  background-color: #ed6a4e;
+  font-weight: bold;
+  text-decoration: none;
+}
+.button:hover {
+  text-decoration: underline;
+  background-color: #c95f47;
+}
+
+.button--transparent {
+  background-color: transparent;
+  border: 0.125rem solid white;
+}
+.button--transparent:hover {
+  background-color: rgba(255, 255, 255, 0.25);
+}
