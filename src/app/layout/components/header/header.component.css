@@ -62,6 +62,7 @@ header::after {
 
 .header__logo {
   width: 100%;
+  filter: drop-shadow(0 0 0.5rem rgba(0, 0, 0, 0.5));
 }
 
 .header__nav-ul {
