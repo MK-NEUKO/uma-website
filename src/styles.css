@@ -67,14 +67,23 @@ body {
   background-color: rgba(255, 255, 255, 0.25);
 }
 
+.text-primary {
+  color: #ed6a4e;
+}
+
 .heading {
   color: #014153;
   margin-top: 0;
   margin-bottom: 0;
-  font-size: 2.5rem;
+  font-size: 2rem;
   text-transform: uppercase;
   letter-spacing: 0.05rem;
   padding: 2rem 0;
+}
+@media (min-width: 36em) {
+  .heading {
+    font-size: 2.5rem;
+  }
 }
 
 .heading--centered {
@@ -83,5 +92,10 @@ body {
 
 .heading__pre-text {
   display: block;
-  font-size: 1.5rem;
+  font-size: 1rem;
+}
+@media (min-width: 36em) {
+  .heading__pre-text {
+    font-size: 1.5rem;
+  }
 }
