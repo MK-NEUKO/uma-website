@@ -36,6 +36,7 @@
 }
 
 .card {
+  position: relative;
   margin: 1rem;
   flex: 0 0 23.66666rem;
   border-radius: 1rem;
@@ -52,24 +53,32 @@
 .card__image {
   display: block;
   width: 100%;
+  height: 29rem;
   object-fit: cover;
+  object-position: 50% 0%;
 }
 
 .card__content {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.5);
   padding: 1.25rem;
   text-align: center;
+  backdrop-filter: blur(00.5rem);
 }
 
 .card__title {
   margin: 0;
-  font-size: 1.25rem;
-  color: #014153;
+  font-size: 1.5rem;
+  color: white;
   text-transform: uppercase;
 }
 
 .card__description {
-  padding: 1rem 0;
+  padding: 1.25rem 0;
   margin: 0;
-  color: #014153;
+  color: white;
   text-transform: uppercase;
 }
