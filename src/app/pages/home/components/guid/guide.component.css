@@ -1,0 +1,23 @@
+.guide {
+  height: 40rem;
+  background-image: linear-gradient(
+      90deg,
+      rgba(36, 161, 163, 0.1),
+      rgba(36, 161, 163, 0.1)
+    ),
+    url("/images/guide/pexels-arnie-chou-927414.jpg"),
+    linear-gradient(90deg, #014153, #014153),
+    url("/images/guide/pexels-minmin-kp-2554603.jpg");
+  background-size: 100% calc(100% - 10rem), 100% calc(100% - 10rem),
+    100% calc(100% - 10rem), 100% auto;
+  background-position: 50% 100%, 50% 100%, 50% 100%, 50% calc(5rem - 85vw);
+  background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
+  background-blend-mode: normal, saturation, normal;
+}
+
+@media (min-width: 62em) {
+  .guide {
+    background-size: 60% 100%, 60% 100%, 60% 100%, 45% auto;
+    background-position: 100% 50%, 100% 50%, 100% 50%, 0% 50%;
+  }
+}

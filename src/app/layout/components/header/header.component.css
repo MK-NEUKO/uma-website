@@ -52,7 +52,6 @@ header::after {
   margin-right: auto;
   margin-left: auto;
 }
-
 @media (min-width: 62em) {
   .header__logo-link {
     margin-right: 0;
